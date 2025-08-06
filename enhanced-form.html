@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mary Anyango - Enhanced Portfolio & Forms</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <!-- Site Header -->
+  <header>
+    <h1>Mary Anyango</h1>
+    <p>Electrical and Telecommunication Engineering Student</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a final-year Electrical and Telecommunication Engineering student at Moi University. Passionate about solving real-world problems using technology.</p>
+      <p>My interests span across Telemedicine, embedded systems, and web development. I thrive in collaborative environments and constantly seek opportunities to grow my skills in Python, JavaScript, and MySQL.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Educational Background</h2>
+      <table border="1">
+        <caption>Education Timeline</caption>
+        <thead>
+          <tr>
+            <th>Institution</th>
+            <th>Program</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Moi University</td>
+            <td>B.Eng. Electrical and Telecommunication</td>
+            <td>2020 - 2025</td>
+          </tr>
+          <tr>
+            <td>Kengen Olkaria</td>
+            <td>Industrial Attachment - Electrical, Control & Instrumentation</td>
+            <td>May - July 2024</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Final Year Project:</strong> Web-based Telemedicine System integrated with Electronic Health Records (EHR) using Python, WebRTC and RFID authentication.</p>
+      <a href="OTIENOMARY-CV.pdf" download>Download my CV</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Programming Languages & Tools</h2>
+      <ol>
+        <li>HTML & CSS</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>MySQL</li>
+        <li>Git & GitHub</li>
+      </ol>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio site showcasing my projects and skills, built using semantic HTML and CSS, hosted on GitHub.</p>
+      </article>
+      <article>
+        <h3>Telemedicine System with EHR Integration</h3>
+        <p>A web-based platform allowing remote consultations via WebRTC and RFID-based authentication, using Python and SQLite.</p>
+      </article>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+      <h2>Interests</h2>
+      <ol>
+        <li>Telemedicine and Digital Health</li>
+        <li>Renewable Energy Technologies</li>
+        <li>Embedded Systems</li>
+      </ol>
+    </section>
+
+    <!-- Contact Section with Enhanced Form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Send me a message</legend>
+
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required placeholder="Your full name" autocomplete="name" ><br>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required placeholder="example@email.com" autocomplete="email" ><br>
+
+          <label for="phone">Phone (Kenyan format):</label>
+          <input type="tel" id="phone" name="phone" pattern="^(\+254|0)?7\d{8}$" placeholder="e.g. 0712345678" required ><br>
+
+          <label for="birthdate">Birthdate:</label>
+          <input type="date" id="birthdate" name="birthdate" max="2020-01-01" required ><br>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea><br>
+
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mary Anyango. All rights reserved.</p>
+    <a href="https://github.com/mary-87800" target="_blank">GitHub</a>
+  </footer>
+</body>
+</html>
