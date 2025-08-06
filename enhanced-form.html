@@ -29,6 +29,11 @@
       <h2>About Me</h2>
       <p>I am a final-year Electrical and Telecommunication Engineering student at Moi University. Passionate about solving real-world problems using technology.</p>
       <p>My interests span across Telemedicine, embedded systems, and web development. I thrive in collaborative environments and constantly seek opportunities to grow my skills in Python, JavaScript, and MySQL.</p>
+      <img src="mypicture.jpg" alt="My Picture" width="300" height="200">
+      <audio controls>
+        <source src="portfolio audio.aac" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
     </section>
 
     <!-- Education Section -->
@@ -63,13 +68,13 @@
     <!-- Skills Section -->
     <section id="skills">
       <h2>Programming Languages & Tools</h2>
-      <ol>
+      <ul type="circle">
         <li>HTML & CSS</li>
         <li>Python</li>
         <li>JavaScript</li>
         <li>MySQL</li>
         <li>Git & GitHub</li>
-      </ol>
+      </ul>
     </section>
 
     <!-- Projects Section -->
@@ -88,7 +93,7 @@
     <!-- Interests Section -->
     <section id="interests">
       <h2>Interests</h2>
-      <ol>
+      <ol type="i">
         <li>Telemedicine and Digital Health</li>
         <li>Renewable Energy Technologies</li>
         <li>Embedded Systems</li>
@@ -112,7 +117,7 @@
           <input type="tel" id="phone" name="phone" pattern="^(\+254|0)?7\d{8}$" placeholder="e.g. 0712345678" required ><br>
 
           <label for="birthdate">Birthdate:</label>
-          <input type="date" id="birthdate" name="birthdate" max="2020-01-01" required ><br>
+          <input type="date" id="birthdate" name="birthdate" required ><br>
 
           <label for="message">Message:</label>
           <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea><br>
